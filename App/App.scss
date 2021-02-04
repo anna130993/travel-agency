@@ -1,0 +1,20 @@
+.switchWrapper {
+  position: relative;
+  @keyframes show-up {
+    0% {
+      margin-top: 200px;
+    }
+
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  > :first-child ~ * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: show-up 1s ease-in-out;
+  }
+}
