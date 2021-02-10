@@ -43,6 +43,12 @@ export const getTripsForCountry = ({trips}, countryCode) => {
   return filtered.length ? filtered : [{error: true}];
 };
 
+export const getTripsForRegion = ({trips}, regionCode) => {
+  const filtered = trips.filter((trip) => trip.region.code == regionCode);
+
+  return filtered.length ? filtered : [{error: true}];
+};
+
 /* ACTIONS */
 
 /*
