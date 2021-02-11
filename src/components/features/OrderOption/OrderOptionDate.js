@@ -7,8 +7,11 @@ const OrderOptionDate = ({currentValue, setOptionValue}) => (
   <div>
     <DatePicker
       selected={currentValue}
-      onChange={setOptionValue}
-      dateFormat="MM/dd/yy"
+      onChange={date => setOptionValue(date)}
+      isClearable
+      dateFormat="MM/dd/yyyy"
+      minDate={new Date()}
+      showDisabledMonthNavigation
     />
   </div>
 );
