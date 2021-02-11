@@ -1,8 +1,7 @@
 export const formatFinishDate = (date, tripDays) => {
   if(date) {
-    const newDate = date;
-    newDate.setDate(newDate.getDate() + tripDays);
-    return newDate.toLocaleDateString();
+    date.setDate(date.getDate() + tripDays);
+    return date.toLocaleDateString();
   } else {
     return '';
   }
