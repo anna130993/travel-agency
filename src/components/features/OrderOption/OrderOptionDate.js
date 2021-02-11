@@ -8,11 +8,11 @@ const OrderOptionDate = ({currentValue, setOptionValue}) => (
     <DatePicker
       selected={currentValue}
       onChange={setOptionValue}
-      showWeekNumbers
       dateFormat="MM/dd/yy"
     />
   </div>
 );
+
 
 OrderOptionDate.propTypes = {
   currentValue: PropTypes.any,

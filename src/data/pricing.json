@@ -66,7 +66,7 @@
   },
   {
     "id": "start-date",
-    "name": "Preferred trip start",
+    "name": "Trip calendar (select start date)",
     "type": "date"
   }
 ]
