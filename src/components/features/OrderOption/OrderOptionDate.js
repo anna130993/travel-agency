@@ -9,7 +9,7 @@ const OrderOptionDate = ({currentValue, setOptionValue}) => (
       selected={currentValue}
       onChange={date => setOptionValue(date)}
       isClearable
-      dateFormat="MM/dd/yyyy"
+      dateFormat="dd/MM/yyyy"
       minDate={new Date()}
       showDisabledMonthNavigation
     />
