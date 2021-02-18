@@ -1,0 +1,65 @@
+{
+  "orders": [
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": "3",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-02-24T23:00:00.000Z",
+      "totalCost": "$91,542",
+      "id": 1
+    },
+    {
+      "car-rental": "",
+      "accommodation": "suite",
+      "features": [
+        "pool"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "2021-02-24T23:00:00.000Z",
+      "totalCost": "$34,917",
+      "id": 2
+    },
+    {
+      "car-rental": "",
+      "accommodation": "house",
+      "features": [
+        "pool"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "",
+      "contact": "",
+      "start-date": "2021-02-24T23:00:00.000Z",
+      "totalCost": "$70,834",
+      "id": 3
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [
+        "kitchen",
+        "pool"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "Anna",
+      "contact": "1234",
+      "start-date": "2021-02-24T23:00:00.000Z",
+      "totalCost": "$72,234",
+      "tripDays": 12,
+      "tripId": "5cc1d1015f3c5f5f14384b15",
+      "tripName": "Wondrous travel in excellent United States of America",
+      "countryCode": "USA",
+      "id": 4
+    }
+  ]
+}
