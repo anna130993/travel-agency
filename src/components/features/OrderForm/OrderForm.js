@@ -58,7 +58,7 @@ const OrderForm = ({options, setOrderOption, tripCost, tripDays, tripId, tripNam
     <Col xs={12}>
       <OrderSummary tripCost={tripCost} options={options} tripDays={tripDays}/>
     </Col>
-    <Button onClick={() => sendOrder(options, tripCost, tripDays, tripId, tripName, countryCode)}>Order now!</Button>
+    <Button variant='orderbtn' onClick={() => sendOrder(options, tripCost, tripDays, tripId, tripName, countryCode)}>Order now!</Button>
   </Row>
 );
 

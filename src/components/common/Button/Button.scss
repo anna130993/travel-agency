@@ -24,4 +24,8 @@
       background: darken($color-primary, 5%);
     }
   }
+
+  &.orderbtn {
+    margin: 20px 0;
+  }
 }
