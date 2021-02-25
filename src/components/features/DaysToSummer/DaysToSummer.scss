@@ -4,9 +4,10 @@
   position: relative;
   text-align: center;
   color: silver;
+  font-weight: bold;
 }
 
-.title, .promoDescription {
+.title, .description {
   position: absolute;
   width: 100%;
   text-shadow: 2px 2px 4px #000;
@@ -17,6 +18,6 @@
   bottom: 40px;
 }
 
-.promoDescription {
+.description {
   bottom: 10px;
 }
