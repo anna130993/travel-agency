@@ -1,0 +1,9 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  text-align: right;
+
+  .phone {
+    padding-left: $base-size;
+  }
+}

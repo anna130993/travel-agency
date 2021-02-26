@@ -3,6 +3,7 @@ import {NavLink, Link} from 'react-router-dom';
 import styles from './Header.scss';
 import Icon from '../../common/Icon/Icon';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import SwitchPhones from '../../features/SwitchPhones/SwitchPhones.js';
 
 class Header extends React.Component {
   render(){
@@ -27,9 +28,7 @@ class Header extends React.Component {
               </nav>
             </Col>
             <Col md={3} lg={2}>
-              <div className={styles.contact}>
-                <Icon name='phone' /><span>678.243.8455</span>
-              </div>
+              <SwitchPhones info='Office is available 8 AM to 10 PM UTC' />
             </Col>
           </Row>
         </Grid>

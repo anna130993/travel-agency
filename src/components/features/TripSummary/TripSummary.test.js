@@ -2,6 +2,11 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import TripSummary from './TripSummary.js';
 
+beforeAll(() => {
+  const utilsModule = jest.requireActual('../../../utils/promoPrice.js');
+  utilsModule.promoPrice = jest.fn(cost => cost);
+});
+
 describe('Component TripSummary', () => {
   it ('should generate link to correct address', () => {
     const expectedId = 'unicorn';

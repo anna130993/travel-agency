@@ -2,7 +2,7 @@ export const parseOptionPrice = price => {
   if (typeof (price) == 'number') {
     return { type: 'number', value: price };
   }
-  else {
+  else if (typeof (price) === 'string') {
     const priceParsed = price.replace(/^\$\s*/, '').replace(/,/g, '');
     const pricePercent = priceParsed.match(/(^\d+)%$/);
     if (pricePercent) {
@@ -14,5 +14,5 @@ export const parseOptionPrice = price => {
     else {
       return { type: 'error', value: 0 };
     }
-  }
+  } else return {type: 'error', value: 0};
 };
