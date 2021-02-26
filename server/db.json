@@ -60,6 +60,78 @@
       "tripName": "Wondrous travel in excellent United States of America",
       "countryCode": "USA",
       "id": 4
+    },
+    {
+      "car-rental": "",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "sfsf",
+      "contact": "dsfgfdgs",
+      "start-date": "2021-03-04T23:00:00.000Z",
+      "totalCost": "$64,638",
+      "tripDays": 3,
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "countryCode": "TGO",
+      "id": 5
+    },
+    {
+      "car-rental": "",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "sfsf",
+      "contact": "dsfgfdgs",
+      "start-date": "2021-03-04T23:00:00.000Z",
+      "totalCost": "$64,638",
+      "tripDays": 3,
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "countryCode": "TGO",
+      "id": 6
+    },
+    {
+      "car-rental": "",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "sfsf",
+      "contact": "dsfgfdgs",
+      "start-date": "2021-03-04T23:00:00.000Z",
+      "totalCost": "$64,638",
+      "tripDays": 3,
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "countryCode": "TGO",
+      "id": 7
+    },
+    {
+      "car-rental": "",
+      "accommodation": "house",
+      "features": [
+        "security"
+      ],
+      "adults": 1,
+      "children": "2",
+      "name": "sfsf",
+      "contact": "345345353",
+      "start-date": "2021-03-04T23:00:00.000Z",
+      "totalCost": "$64,638",
+      "tripDays": 3,
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "countryCode": "TGO",
+      "id": 8
     }
   ]
 }
